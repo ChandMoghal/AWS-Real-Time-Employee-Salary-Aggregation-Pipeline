@@ -1,0 +1,22 @@
+
+---
+
+## Implementation Steps
+
+### 1. Create S3 Buckets
+- Input: `employee-raw-data-rajinikanth-2025`  
+- Output: `employee-summary-data-rajinikanth-2025`  
+
+### 2. Sample CSV
+
+`sample_csv/employee_data_oct.csv`:
+
+```csv
+EmployeeID,Name,Country,Salary
+101,John,USA,5000
+102,Anita,India,4000
+103,Maria,USA,5500
+104,Ravi,India,4500
+105,Chen,China,4800
+106,Kiran,India,4700
+107,Alex,USA,5200
