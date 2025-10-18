@@ -1,0 +1,38 @@
+        +----------------+
+        | CSV Upload     |
+        | (employee_data)|
+        +--------+-------+
+                 |
+                 v
+        +----------------+
+        | S3 Input Bucket|
+        +--------+-------+
+                 |
+          S3 Event Trigger
+                 |
+                 v
+        +----------------+
+        | Lambda Function|
+        | (Python 3.11) |
+        +--------+-------+
+                 |
+     Aggregates salary by country
+                 |
+                 v
+        +----------------+
+        | S3 Output Bucket|
+        | (JSON Summary)  |
+        +--------+-------+
+                 |
+                 v
+        +----------------+
+        | CloudWatch Logs|
+        +----------------+
+                 |
+         Optional Notification
+                 |
+                 v
+        +----------------+
+        | SNS Topic       |
+        | (Email Alert)   |
+        +----------------+
