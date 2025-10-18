@@ -77,10 +77,5 @@ How to Run
 4. Monitor logs in CloudWatch
 5. Optional: Receive notifications via SNS
 
-Portfolio/GitHub Tips
 
-- Include screenshots: S3 buckets, Lambda code, CloudWatch log entry
-- Include architecture diagram
-- Add sample CSV & JSON output
-- Highlight your role: built pipeline from scratch, automated, monitored
 
